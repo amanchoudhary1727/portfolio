@@ -33,7 +33,7 @@ const ChatBox: React.FC<{ onClose: () => void }> = ({ onClose }) => {
       const welcomeMessage: Message = {
         id: 'welcome',
         role: 'assistant',
-        content: 'Retrieving neural context... I am your Technical Consultant. How can I assist with FastAPI, scraping, ML deployment, or Flutter?',
+        content: 'This Chatbot is powered by a Retrieval-Augmented Generation (RAG) architecture, leveraging advanced neural networks to provide accurate and context-aware responses. Feel free to ask any questions or seek assistance! Be aware that response times may vary based on server load and network conditions.',
         timestamp: new Date()
       };
       setMessages([welcomeMessage]);
