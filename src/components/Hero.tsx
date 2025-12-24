@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
             <span className="block md:inline md:ml-4">Choudhary</span>
           </h1>
           <p className="text-xs md:text-sm uppercase tracking-[0.4em] text-zinc-400 md:text-zinc-500 pt-2 md:pt-0">
-            Python Developer & Creative Technologist
+            Python Developer & AI Enthusiast
           </p>
         </div>
       </div>
